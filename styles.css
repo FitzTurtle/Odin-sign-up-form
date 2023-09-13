@@ -68,4 +68,13 @@
     border-radius: 1px;
 }
 
+.formbox label {
+    display: block;
+}
+
+.formRow {
+    display: flex;
+    justify-content:flex-start
+}
+
 
