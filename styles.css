@@ -3,24 +3,31 @@
     margin: 0px;
 }
 
-.logo {
-    display: flex;
-    width: 100%;
-    background-color: #747474;
-    opacity: 50%;
-    justify-content: center;
-    align-items: center;
-    margin-top: 15%;
-}
-
 .container {
     display: flex;
 }
+
+.logo {
+    display: flex;
+    width: 100%;
+    background-color: #1d1d1d;
+    opacity: 50%;
+    justify-content: center;
+    align-items: center;
+    margin-top: 25%;
+}
+
+.odinLogo {
+   width: auto;
+   height: min(150px, 100vh);
+}
+
 
 .sidepic {
     display: flex;
     flex-direction: column;
     justify-content:space-between;
+    align-items: center;
 
     background-image: url("turtlebg.jpg");
     background-size: cover;
@@ -48,6 +55,3 @@
 }
 
 
-.photocredit {
-    align-self: flex-start;
-}
