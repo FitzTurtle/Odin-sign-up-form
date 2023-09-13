@@ -7,22 +7,6 @@
     display: flex;
 }
 
-.logo {
-    display: flex;
-    width: 100%;
-    background-color: #1d1d1d;
-    opacity: 50%;
-    justify-content: center;
-    align-items: center;
-    margin-top: 25%;
-}
-
-.odinLogo {
-   width: auto;
-   height: min(150px, 100vh);
-}
-
-
 .sidepic {
     display: flex;
     flex-direction: column;
@@ -34,6 +18,36 @@
     height: 100vh;
     flex: 1;
 }
+
+.logo {
+    display: flex;
+    width: 100%;
+    background-color: #1d1d1d;
+    opacity: 65%;
+    justify-content: center;
+    align-items: center;
+    margin-top: 25%;
+}
+
+.odinLogo {
+   width: auto;
+   height: min(150px, 100vh);
+}
+
+.logo h1 {
+    color: white;
+}
+
+.photocredit {
+    color: white;
+    font-weight: bold;
+}
+.photocredit a {
+    color: white;
+    font-weight: bold;
+}
+
+
 
 .formsection {
     background-color: #cccccc;
