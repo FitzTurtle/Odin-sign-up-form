@@ -1,6 +1,7 @@
 :root {
     /* turtle color palette */
     --moonstone: #59b8c7ff;
+    --moonstoneshadow: #59b8c781;
     --blue-munsell: #008fa0ff;
     --moonstone-2: #2eb0c0ff;
     --reseda-green: #6b8260ff;
@@ -123,6 +124,7 @@ body {
     border: 2px solid var(--blue-munsell);
     outline: none;
     padding: 4px;
+    box-shadow: 2px 2px 1px 1px var(--moonstoneshadow);
 }
 
 .formbox label {
