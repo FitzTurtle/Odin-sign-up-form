@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="styles.css" rel="stylesheet">
+    <script src="script.js" defer></script>
     <title>Document</title>
 </head>
 <body>
@@ -31,7 +32,7 @@
             <div class="forms">
                 <h3>Let's do this!</h3>
 
-                <form action="#">
+                <form action="#" id="form">
                     <div class="formRow">
                         <section class="formbox">
                             <label for="firstname">First Name</label>
@@ -52,20 +53,29 @@
 
                         <section class="formbox">
                             <label for="phone">Phone Number</label>
-                            <input type="tel" name="lastname" id="lastname" required>
+                            <input type="tel" name="phone" id="phone" required>
                         </section>
                     </div>
 
                     <div class="formRow">
                         <section class="formbox">
                             <label for="password">Password</label>
-                            <input type="password" name="password" id="password" required>
+                            <input type="password" 
+                            name="password" 
+                            id="password" 
+                            required>
                         </section>                            
 
                         <section class="formbox">
                             <label for="passwordconfirm">Confirm Password</label>
-                            <input type="password" name="passwordconfirm" id="passwordconfirm" required>
+                            <input type="password" 
+                                name="passwordconfirm"
+                                id="passwordconfirm"
+                                required>
                         </section>
+                    </div>
+
+                    <div id="passworderrors">
                     </div>
 
                 

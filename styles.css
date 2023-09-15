@@ -149,3 +149,15 @@ body {
 .account {
     font-size: .8em;
 }
+
+input[type="password"].error{
+    border-color: red;
+}
+
+#passworderrors.error::after {
+    content: "*Passwords do not match";
+    position: absolute;
+    margin-top: -5px;
+    font-size: .5em;
+    color: #ff0000;
+}
